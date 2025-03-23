@@ -17,10 +17,10 @@ DB_HOST = os.getenv("DB_HOST","localhost")
 schema_name = "emoryhackathon"
 
 ### Debug
-# print("DEBUG ENV:")
-# print("DB_USERNAME =", os.getenv("DB_USERNAME"))
-# print("DB_PASSWORD =", os.getenv("DB_PASSWORD"))
-# print("DB_HOST =", os.getenv("DB_HOST"))
+print("DEBUG ENV:")
+print("DB_USERNAME =", os.getenv("DB_USERNAME"))
+print("DB_PASSWORD =", os.getenv("DB_PASSWORD"))
+print("DB_HOST =", os.getenv("DB_HOST"))
 
 # ---- Navbar ----
 st.markdown('<div class="navbar-container">', unsafe_allow_html=True)
